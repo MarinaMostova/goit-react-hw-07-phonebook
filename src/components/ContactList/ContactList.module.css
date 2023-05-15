@@ -1,12 +1,13 @@
 .list {
   margin: 0 auto;
 }
+
 .item {
   display: flex;
   margin-bottom: 15px;
+  justify-content: space-between;
 }
 .text {
-  width: 240px;
   margin-right: 25px;
 }
 
@@ -21,4 +22,7 @@
 
 .button:hover {
   background-color: blue;
+}
+.button[disabled] {
+  background-color: grey;
 }
