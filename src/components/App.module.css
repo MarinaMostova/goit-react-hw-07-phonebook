@@ -1,20 +1,29 @@
 .container {
   max-width: 500px;
-  min-height: 100vh;
   border-radius: 10px;
   margin: 20px auto;
-  padding: 40px;
-  background-color: rgb(225, 235, 243);
+  padding: 30px 40px;
+  background: -webkit-linear-gradient(
+    180deg,
+    #28348a,
+    #01b4ee,
+    #28348a,
+    #01b4ee
+  );
+  background: linear-gradient(180deg, #28348a, #01b4ee, #28348a, #01b4ee);
+  box-shadow: 4px 4px 4px #4f4f4f;
 }
 
 .title {
-  font-size: 36px;
+  color: #eceef8;
+  font-size: 46px;
   padding: 20px 0;
   text-align: center;
 }
 
 .contacts__title {
-  font-size: 24px;
+  color: #eceef8;
+  font-size: 36px;
   padding: 20px 0;
   text-align: center;
 }

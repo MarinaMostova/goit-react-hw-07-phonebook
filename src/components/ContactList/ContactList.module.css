@@ -1,28 +1,43 @@
 .list {
   margin: 0 auto;
+  padding: 15px;
+  border-radius: 5px;
 }
 
 .item {
   display: flex;
-  margin-bottom: 15px;
   justify-content: space-between;
+  align-items: center;
+  background-color: #adccf0;
+  padding: 10px 5px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  border-radius: 5px;
 }
+
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
 .text {
-  margin-right: 25px;
+  font-weight: 600;
+  color: #171f4d;
 }
 
 .button {
   border: none;
+  width: 100px;
   border-radius: 5px;
   padding: 5px 10px;
   background-color: #006eff;
   color: aliceblue;
   cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .button:hover {
   background-color: blue;
 }
-.button[disabled] {
-  background-color: grey;
-}
+

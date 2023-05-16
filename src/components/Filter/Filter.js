@@ -14,15 +14,16 @@ const Filter = () => {
 
   return (
     <div className={css.filter}>
-      <label className={css.title} htmlFor="filter">
+      {/* <label className={css.title} htmlFor="filter">
         Find contact by name
-      </label>
+      </label> */}
       <input
         onChange={onFilterChange}
         className={css.input}
         type="text"
         name="filter"
         value={filter}
+        placeholder=" Find contact by name"
       />
     </div>
   );

@@ -8,13 +8,15 @@
   width: 300px;
   border-radius: 5px;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-  background-color: aliceblue;
+  background-color: #adccf0;
 }
 
 .form__label {
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
+    font-weight: 600;
+  color: #171f4d;
 }
 
 .form__input {
@@ -22,6 +24,7 @@
   padding: 5px 10px;
   margin-top: 5px;
   border-radius: 5px;
+  font-size: 14px;
 }
 .form__input:focus {
   outline: none;
@@ -33,16 +36,16 @@
   width: 175px;
   padding: 8px 10px;
   border-radius: 5px;
-  border: none;
+  /* border: none; */
   background-color: #006eff;
   color: aliceblue;
   cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .form__button:hover {
   background-color: blue;
 }
 
-.form__button[disabled] {
-  background-color: grey;
-}
